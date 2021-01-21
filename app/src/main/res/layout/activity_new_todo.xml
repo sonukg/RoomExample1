@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_marginTop="20dp"
+    tools:context=".view.NewTodoActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme.PopupOverlay">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:hint="@string/note"
+            android:background="@color/cardview_light_background"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/bCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@color/design_default_color_background"
+            android:backgroundTint="@color/material_on_primary_emphasis_high_type"/>
+
+        <Button
+            android:id="@+id/bSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/save"
+            android:textColor="@color/design_default_color_background"
+            android:backgroundTint="@color/material_on_primary_emphasis_high_type"/>
+    </LinearLayout>
+
+</LinearLayout>

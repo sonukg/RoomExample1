@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">RoomExample1</string>
+    <string name="Note">Note</string>
+    <string name="note">Note</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="updated">Data Updated</string>
+    <string name="not_saved">Data not saved</string>
+    <string name="todo_fab">TODO FAB</string>
 </resources>
